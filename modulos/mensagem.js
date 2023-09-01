@@ -1,4 +1,4 @@
-var mensagem = function (nome) {
-    return "Olá, " + nome +". Seja bem vindo ao curso de Node.js"
+var mensagem = function (nome,sendmessage) {
+    return nome + " " + sendmessage + "!";
   }; 
   module.exports = mensagem;
